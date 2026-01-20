@@ -6,10 +6,27 @@
     height: 500px;
     border-radius: 10px;
 }
+.bannar-img{
+    position: relative;
+}
+.exp{
+    height: 60px;
+    max-width:200px;
+    background-color: #9100F8;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 70px;
+    left: -75px;
+    padding: 10px;
+}
 .bannar-parent{
     justify-content: space-around;
     align-items: center;
- 
+    padding: 50px 0px;
 }
 .bannar-info h1{
     color: white;
@@ -39,5 +56,10 @@
 }
 .bannar-img {
     padding-top: 50px;
+}
+.exp{
+    top: 224px;
+    left: -11px;
+    background: linear-gradient(#f7e83f, #fb09b285, #9100f8);
 }
 }
