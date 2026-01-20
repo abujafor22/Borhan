@@ -1,0 +1,43 @@
+.bannar{
+    background-color: #1A0B2E;
+}
+.bannar-img img{
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.bannar-parent{
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.bannar-info h1{
+    color: white;
+    font-size: 4rem;
+}
+.bannar-info p{
+     background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+@media screen and (max-width:576px) {
+    .bannar-parent{
+     flex-direction: column;
+     text-align: center;
+     padding: 20px;
+}
+.bannar-img img{
+    max-width: 100%;
+}
+.bannar-info h1{
+    font-size: 3.3rem;
+}
+.bannar-info p{
+    font-size: 2.2rem;
+}
+.bannar-img {
+    padding-top: 50px;
+}
+}
